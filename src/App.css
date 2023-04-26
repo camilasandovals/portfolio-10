@@ -10,7 +10,7 @@
     padding: 10px
 }
 
-/* .gallery-card figure {
+.gallery-card figure {
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -18,7 +18,11 @@
 
 .gallery-card figure img {
     transition: transform 1.1s ease-out;
-} */
+}
+
+.gallery-card figure img:hover{
+    transform: scale(1.3);
+}
 
 .button-effect{
     display: block;
