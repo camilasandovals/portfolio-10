@@ -1,7 +1,7 @@
 import { Github } from "react-bootstrap-icons"
 
 export default function About() {
-    const githubUrl = "https://github.com/milasandovals/"
+    const githubUrl = "https://github.com/camilasandovals/"
     const currentYear = new Date().getFullYear()
     return (
         <footer>
